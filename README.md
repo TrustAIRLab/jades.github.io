@@ -5,3 +5,7 @@ Official website of JADES
 JailbreakQR: [link (gated)](https://huggingface.co/datasets/Jony7chu/JailbreakQR)
 
 HarmfulQA: [link (gated)](https://huggingface.co/datasets/Jony7chu/HarmfulQA)
+
+## Code
+JADES Repository: [link](https://github.com/TrustAIRLab/JADES)
+
