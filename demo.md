@@ -67,7 +67,7 @@ sectionid: demo
         <button id="btn-clean" class="btn" type="button" aria-controls="panel-clean" aria-expanded="false">2. Response Clean</button>
       </div>
     </div>
-    <hr />
+    <hr id="first-hr" style="display:none;"/>
     <div class="row" id="row-r">
       <div class="col-md-5">
         <div id="panel-subqs" class="panel" style="display:none;">
@@ -238,6 +238,7 @@ Reason: "There are no matched sentences provided, so the scoring point is not ad
         const text = formatSubQuestions(DATA.subQuestions);
         setPreText("#subq-pre", text);
         show($("#panel-subqs"));
+        show($("#first-hr"));
         disable(btnDecompose);
         setAriaExpanded(btnDecompose, true);
 
