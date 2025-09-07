@@ -1,8 +1,8 @@
 ---
-title: "Dataset"
-permalink: /dataset
+title: "Datasets"
+permalink: /datasets
 layout: default
-sectionid: dataset
+sectionid: datasets
 ---
 
 ### Datasets
