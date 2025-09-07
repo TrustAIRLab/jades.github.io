@@ -1,11 +1,10 @@
-# JADES: A Universal Framework for Jailbreak Assessment via Decompositional Scoring
-Official website of JADES
+# Jekyll Doc Theme
 
-## Dataset
-JailbreakQR: [link (gated)](https://huggingface.co/datasets/Jony7chu/JailbreakQR)
+Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
 
-HarmfulQA: [link (gated)](https://huggingface.co/datasets/Jony7chu/HarmfulQA)
+## Guide
+Go to folder ***_docs*** for the guide
 
-## Code
-JADES Repository: [link](https://github.com/TrustAIRLab/JADES)
+## License
 
+Released under [the MIT license](LICENSE).

@@ -1,0 +1,36 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container navbar-container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            <a class="navbar-brand" href="{{ "/" | relative_url }}">
+                <span><img src="{{ "/assets/img/project_logo.png" | relative_url }}" alt="Project Logo" style="width: 100%;"></span>
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li {% if page.sectionid=='Demo' %} class="active" {% endif %}><a href="{{ "/demo" | relative_url }}"><strong>Demo</strong></a></li>
+                <li {% if page.sectionid=='dataset' %} class="active" {% endif %}><a href="{{ "/dataset" | relative_url }}"><strong>Dataset</strong></a></li>
+<!--                 <li {% if page.sectionid=='home' %} class="active" {% endif %}><a href="{{ "/" | relative_url }}">Home</a></li> -->
+            </ul>
+            <div class="navbar-right">
+<!--                 <form class="navbar-form navbar-left">
+                    <div class="form-group has-feedback">
+                        <input id="search-box" type="search" class="form-control" placeholder="Search...">
+                        <i class="fa fa-search form-control-feedback"></i>
+                    </div>
+                </form> -->
+                <ul class="nav navbar-nav">
+                    <li><a href="https://github.com/TrustAIRLab/JADES"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+                </ul>
+                <a class="navbar-brand" href="https://github.com/TrustAIRLab">
+                    <span><img src="{{ "/assets/img/TrustAIRLab.png" | relative_url }}" alt="Lab Logo" style="width: 70px; height: auto"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>

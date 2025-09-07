@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+
+{% include head.html %}
+
+<body>
+
+    {% include topnav.html %}
+
+    <div class="page-content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+    {% include js_files.html %}
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const tables = document.querySelectorAll('table');
+        tables.forEach(function(table) {
+          table.classList.add('table', 'table-striped'); // 为表格添加Bootstrap类
+        });
+      });
+    </script>
+</body>
+
+</html>
