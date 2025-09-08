@@ -10,8 +10,8 @@ sectionid: datasets
 
 #### JailbreakQR 
 **JailbreakQR** is a dataset of **400 pairs of jailbreak prompts and jailbreak responses**, each paired with:
-- A jailbreak prompt
-- A jailbreak response
+- A *jailbreak prompt*
+- A *jailbreak response*
 
 All pairs are labeled as ```failed```, ```partially successful```, and ```successful``` by experienced annotators.
 The labeling reasons are also given.
