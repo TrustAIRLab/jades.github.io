@@ -16,7 +16,7 @@ sectionid: datasets
 All pairs are labeled as ```failed```, ```partially successful```, and ```successful``` by experienced annotators.
 The labeling reasons are also given.
 
-The dataset is provided in the [link (gated)](https://huggingface.co/datasets/TrustAIRLab/JailbreakQR).  
+The dataset is provided in the [link (gated)](https://huggingface.co/datasets/TrustAIRLab/JailbreakQR) and the [backup link (gated)](https://huggingface.co/datasets/Jony7chu/JailbreakQR).  
 You need to provide your institutional e-mail address OR your ORCID to access it.
 
 #### HarmfulQA
@@ -26,7 +26,7 @@ You need to provide your institutional e-mail address OR your ORCID to access it
 
 All questions and answers are **based on Wikipedia content**.  
 
-The dataset is provided in the [link (gated)](https://huggingface.co/datasets/TrustAIRLab/HarmfulQA).  
+The dataset is provided in the [link (gated)](https://huggingface.co/datasets/TrustAIRLab/HarmfulQA) and the [backup link (gated)](https://huggingface.co/datasets/Jony7chu/HarmfulQA).  
 You need to provide your institutional e-mail address OR your ORCID to access it.
 
 #### Citation
