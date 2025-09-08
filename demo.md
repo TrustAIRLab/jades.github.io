@@ -15,7 +15,7 @@ sectionid: demo
     .pre-box {
       white-space: pre-wrap;
       word-wrap: break-word;
-      max-height: 270px;
+      max-height: 240px;
       overflow: auto;
       margin: 0;
     }
@@ -36,6 +36,11 @@ sectionid: demo
     table.aggregate th, table.aggregate td { padding: 8px 10px; border: 1px solid #e5e7eb; text-align: left; }
     table.aggregate thead th { background: #f8fafc; }
     table.aggregate tfoot td { font-weight: bold; }
+    /* 等高面板，不拉伸按钮 */
+    .row > [class^="col-"], .row > [class*=" col-"] { display: flex; flex-direction: column; }
+    .row > [class^="col-"] > .panel, .row > [class*=" col-"] > .panel { flex: 1 1 auto; }
+    .row > [class^="col-"] > .btn, .row > [class*=" col-"] > .btn { align-self: flex-start; } /* 关键 */
+
   </style>
 </head>
 
